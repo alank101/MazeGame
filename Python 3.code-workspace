@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "AIO Python"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/Users/alanbarry/anaconda3/bin/python",
+	}
+}

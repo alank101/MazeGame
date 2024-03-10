@@ -25,13 +25,13 @@ function renderMaze(maze) {
     for (var row = 0; row < maze.length; row++) {
         for (var col = 0; col < maze[row].length; col++) {
             if (maze[row][col] === 1) {
-                ctx.fillStyle = 'black'; // Wall
                 canvas.classList.add('wall')
+                ctx.fillStyle = 'black'; // Wall
             } else if (maze[row][col] === 2) {
                 ctx.fillStyle = 'red'; // Start point
             } else {
-                ctx.fillStyle = 'white'; // Empty space
                 canvas.classList.add('empty-space')
+                ctx.fillStyle = 'white'; // Empty space
             }
             ctx.fillRect(col * cellWidth, row * cellHeight, cellWidth, cellHeight);
         }
